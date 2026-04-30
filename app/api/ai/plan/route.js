@@ -1,0 +1,1 @@
+import { NextResponse } from "next/server";export async function POST(req){const b=await req.json();return NextResponse.json({ok:false,mode:"placeholder",message:"Add OPENAI_API_KEY to activate AI planning.",items:b.items||[],missing:["Add OpenAI key to generate live AI plan."]});}
