@@ -1,0 +1,1 @@
+import { NextResponse } from "next/server";export async function POST(){return NextResponse.json({ok:false,mode:"placeholder",message:"Add STRIPE_SECRET_KEY to activate checkout."});}

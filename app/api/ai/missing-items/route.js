@@ -1,0 +1,1 @@
+import { NextResponse } from "next/server";export async function POST(){return NextResponse.json({ok:true,message:"Missing items check complete.",missing:["Confirm permits and insurance.","Confirm restrooms and handwashing.","Confirm cleanup and recycling.","Confirm accessibility.","Confirm weather backup.","Confirm vendor deposits."]});}

@@ -1,0 +1,1 @@
+import { NextResponse } from "next/server";export async function POST(req){const b=await req.json();return NextResponse.json({ok:false,mode:"placeholder",message:"Add Supabase keys to save events.",event:b});}
