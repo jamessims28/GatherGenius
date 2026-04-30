@@ -1,1 +1,0 @@
-import { NextResponse } from "next/server";export async function POST(){return NextResponse.json({ok:false,mode:"placeholder",message:"Add Stripe keys and price IDs to enable subscriptions."});}
