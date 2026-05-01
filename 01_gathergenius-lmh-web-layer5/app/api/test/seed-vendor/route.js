@@ -1,0 +1,3 @@
+import { NextResponse } from "next/server";
+import { getSupabaseAdmin } from "../../../../lib/supabaseAdmin";
+export async function POST(){const supabase=getSupabaseAdmin();if(!supabase)return NextResponse.json({ok:false,mode:"safe-placeholder",message:"Supabase env vars missing."});const {error}=await supabase.from("vendors").insert({business_name:"Layer 5 Test Vendor",category:"Test",location:"Stafford, VA",price_range:"Test",plan:"starter",verified:false});if(error)return NextResponse.json({ok:false,message:error.message},{status:500});return NextResponse.json({ok:true,message:"Test vendor saved to Supabase."})}
