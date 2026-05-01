@@ -1,0 +1,26 @@
+{
+  "name": "GatherGenius Real Startup Infrastructure",
+  "business_entity": "LMH Enterprise LLC",
+  "vercel_project_name": "gathergenius-lmh",
+  "included_artifacts": [
+    "GatherGenius_FINAL_PRODUCTION_READY.zip",
+    "GatherGenius_OPTIMIZED_PRODUCTION_BUILD.zip",
+    "GatherGenius_LIVE_VENDOR_MAP_VERSION.zip",
+    "GatherGenius_EMPIRE_PHASE_1.zip",
+    "GatherGenius_EMPIRE_PHASE_2.zip",
+    "GatherGenius_EMPIRE_PHASE_3.zip",
+    "GatherGenius_MOBILE_APP_FULL.zip",
+    "GatherGenius_Investor_Pitch_Deck.pptx",
+    "GatherGenius_OUTREACH_AUTOMATION_SYSTEM.zip",
+    "GatherGenius_Mobile_Pitch_Outreach_Bundle.zip"
+  ],
+  "launch_order": [
+    "Deploy optimized production build",
+    "Connect env vars",
+    "Run Supabase schema",
+    "Onboard 10 vendors",
+    "Activate paid listings",
+    "Run outreach system",
+    "Use investor deck after traction"
+  ]
+}
